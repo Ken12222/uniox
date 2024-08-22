@@ -1,61 +1,869 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- favicon -->
-    <link rel="icon" type="image/x-icon" href="/img/favicon.ico">
-    <!-- Bootstrap -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <!--====== Required meta tags ======-->
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <!-- Google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <!--====== Title ======-->
+  <title>uniox</title>
 
-    <!-- style -->
-     <link rel="stylesheet" href="stylesheet/main.css">
+  <!-- Google font -->
 
-    <title>Homepage</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+  <!-- Google font -->
+
+  <!--====== Favicon Icon ======-->
+  <link rel="shortcut icon" href="img/favicon.ico" type="image/svg" />
+
+  <!--====== Bootstrap css ======-->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+
+  <!--====== Line Icons css ======-->
+  <link rel="stylesheet" href="assets/css/lineicons.css" />
+
+  <!--====== Tiny Slider css ======-->
+  <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+
+  <!--====== gLightBox css ======-->
+  <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body>
-    <!-- Navigation -->
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img style="width: 45px;" src="img/logo.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">What We Offer</a></li>
-                  <li><a class="dropdown-item" href="#">Why We Exist</a></li>
-                  <li><a class="dropdown-item" href="#"> What We Offer</a></li>
-                  <li><a class="dropdown-item" href="#">Why Choose Us</a></li>
-                  <li><a class="dropdown-item" href="#">What You Gain</a></li>
-                  <li><a class="dropdown-item" href="#">Next Steps</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-            </ul>
+<body>
+
+  <!--====== NAVBAR NINE PART START ======-->
+
+  <section class="navbar-area navbar-nine">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html">
+              <img style="width: 120px;" src="img/logo.png" alt="Logo" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNine"
+              aria-controls="navbarNine" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="toggler-icon"></span>
+              <span class="toggler-icon"></span>
+              <span class="toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse sub-menu-bar" id="navbarNine">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle active" href="#hero-area" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <strong>Who We Are</strong>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item page-scroll" href="#weexist">Why We Exist</a></li>
+                    <li><a class="dropdown-item page-scroll" href="#weoffer">What We Offer</a></li>
+                    <li><a class="dropdown-item page-scroll" href="#chooseUs">Why Choose Us</a></li>
+                    <li><a class="dropdown-item page-scroll" href="#yougain">What You Gain</a></li>
+                    <li><a class="dropdown-item page-scroll" href="#nextsteps">Next Steps</a></li>
+                  </ul>
+                </li>
+
+                <li class="nav-item">
+                  <a class="page-scroll" href="#contact">Contact Us</a>
+                </li>
+
+                <li class="nav-item" >
+                  <a class="page-scroll" href="#contact" style="background-color: #50C878; color: white; border-radius: 50px;">Join Waitlist</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+          <!-- navbar -->
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </section>
+
+  <!--====== NAVBAR NINE PART ENDS ======-->
+
+  <!-- Start header Area -->
+  <section id="hero-area" class="header-area header-eight">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-md-12 col-12">
+          <div class="header-content">
+            <h1>Who We Are</h1>
+            <p>
+              We are Uniox Technologies – where innovation 
+              meets simplicity to empower businesses.
+              We specialize in delivering comprehensive and user-friendly
+              enterprise business management solutions designed to 
+              provide strategic data insights, streamline operations, 
+              enhance efficiency, and foster growth. 
+            </p>
+            <div class="button">
+              <a href="" class="btn primary-btn">Join Waitlist</a>
+              </a>
+            </div>
           </div>
         </div>
-      </nav>
+        <div class="col-lg-6 col-md-12 col-12">
+          <div class="header-image">
+            <img src="img/afric.jpg" alt="#" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End header Area -->
 
-    <!-- Navigation -->
+  <!--====== ABOUT FIVE PART START ======-->
 
-    <!-- Bootstrap js -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <section class="about-area about-five">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-6 col-12">
+          <div class="about-image-five">
+            <img style="border-radius: 10px;" src="img/about-img1.jpg" alt="who_we_are" />
+          </div>
+        </div>
+        <div class="col-lg-6 col-12">
+          <div class="about-five-content">
+            <div class="about-five-tab">
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-who-tab" data-bs-toggle="tab" data-bs-target="#nav-who"
+                    type="button" role="tab" aria-controls="nav-who" aria-selected="true">Who We Are</button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-who" role="tabpanel" aria-labelledby="nav-who-tab">
+                  <p>At Uniox, we understand the unique challenges faced 
+                    by businesses in your markets. Our solutions are 
+                    tailored to meet these needs, ensuring compliance 
+                    with local regulations, safeguarding your data, and 
+                    enabling you to offer exceptional service to your 
+                    customers.</p>
+                  <p>Whether you are a small to medium-sized enterprise 
+                    or a rapidly growing startup, Uniox equips you with 
+                    the tools to transform your business operations, drive 
+                    productivity, and achieve sustainable success. 
+                    Let us join you on your journey and elevate your 
+                    business with the power of Uniox – the enterprise 
+                    solution designed for the future of work. </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container -->
+  </section>
+
+  <!--====== ABOUT FIVE PART ENDS ======-->
+
+  <!-- ===== service-area start ===== -->
+  <section id="weexist" class="services-area services-eight">
+    <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="content">
+              <h2 class="fw-bold">Why We Exist</h2>
+              <hr class="custom-hr">
+              <p>
+                We exist because we believe in you and what you are 
+                seeking to achieve, and we want to help and see you 
+                succeed.  
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+    <!--======  End Section Title Five ======-->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-3 col-md-6">
+          <div class="single-services">
+            <div class="service-icon">
+              <span>1</span>
+            </div>
+            <div class="service-content">
+              <h4>Operational Inefficiencies</h4>
+              <p>
+                Your business processes are a tangled web of manual 
+                entries and outdated spreadsheets. Tracking inventory, 
+                processing orders, and managing customer relationships 
+                have become cumbersome and error prone. 
+                This inefficiency is leading to missed opportunities, 
+                delayed deliveries, and dissatisfied customers. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="single-services">
+            <div class="service-icon">
+              <span>2</span>
+            </div>
+            <div class="service-content">
+              <h4>Compliance and Security</h4>
+              <p>
+                As your business expands, so does the complexity of 
+                complying with tax regulations and industry standards. 
+                You are constantly worried about the accuracy of your 
+                financial reports and the security of your business data, 
+                which is scattered across multiple systems and paper 
+                records.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="single-services">
+            <div class="service-icon">
+              <span>3</span>
+            </div>
+            <div class="service-content">
+              <h4>Employee Management</h4>
+              <p>
+                With a growing team and plans to add on a few more, you 
+                struggle to manage employee records, track performance, 
+                and ensure timely payroll processing. 
+                The lack of a centralized system makes it difficult for you 
+                to provide the support your employees need to thrive and 
+                contribute to the business's success.
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="single-services">
+            <div class="service-icon">
+              <span>4</span>
+            </div>
+            <div class="service-content">
+              <h4>Customer Satisfaction</h4>
+              <p>
+                Your customers are demanding more personalized and 
+                timely service. However, without a robust system, 
+                it’s challenging to keep track of customer preferences, 
+                manage inquiries efficiently, and deliver the level of 
+                service that your customers have come to expect from 
+                you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ===== service-area end ===== -->
+
+
+  <!-- Start Pricing  Area -->
+  <section id="weoffer" class="pricing-area pricing-fourteen">
+    <!--======  Start Section Title Five ======-->
+    <div class="section-title-five">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="content">
+              <h2 class="fw-bold">What We Offer</h2>
+              <hr class="custom-hr">
+              <p>
+                Our comprehensive enterprise solution covers 360 degrees 
+                of your business, streamlines processes, boosts efficiency, 
+                and drives sustainable business growth. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+    <!--======  End Section Title Five ======-->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="pricing-style-fourteen">
+            <div class="table-head">
+              <h6 class="title">People Management</h4>
+            </div>
+
+            <div class="table-content">
+              <ul class="table-list">
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle"></i>Core HR:  Manage employee records, organizational 
+                  charts, job positions, onboarding, and offboarding.</li>
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle"></i>  Payroll: Automate payroll calculations, tax deductions,
+                  compliance, and direct deposits.</li>
+                <li> <i class="lni lni-checkmark-circle deactive"></i>  Talent Management: Streamline recruitment, 
+                  performance management, and succession planning.</li>
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle deactive"></i>  Time and Attendance: Track    employee time, manage leave, calculate overtime, and create schedules.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="pricing-style-fourteen">
+            <div class="table-head">
+              <h6 class="title">Customer Relationship Management (CRM)</h4>
+            </div>
+
+            <div class="table-content">
+              <ul class="table-list">
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle"></i> Contact Management: Maintain detailed customer
+                  profiles and contact history.</li>
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle"></i> Lead Tracking: Monitor and manage leads through the
+                  sales pipeline.</li>
+                <li> <i class="lni lni-checkmark-circle deactive"></i>Sales Pipeline: Visualize and track the progress of sales
+                  opportunities.</li>
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle deactive"></i>Feedback Surveys: Gather and analyze customer 
+                  feedback to improve services.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="pricing-style-fourteen">
+            <div class="table-head">
+              <h6 class="title">People Management</h4>
+            </div>
+
+            <div class="table-content">
+              <ul class="table-list">
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle"></i>Core HR:  Manage employee records, organizational 
+                  charts, job positions, onboarding, and offboarding.</li>
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle"></i>  Payroll: Automate payroll calculations, tax deductions,
+                  compliance, and direct deposits.</li>
+                <li> <i class="lni lni-checkmark-circle deactive"></i>  Talent Management: Streamline recruitment, 
+                  performance management, and succession planning.</li>
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle deactive"></i>  Time and Attendance: Track    employee time, manage leave, calculate overtime, and create schedules.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="pricing-style-fourteen">
+            <div class="table-head">
+              <h6 class="title">Financial Management</h4>
+            </div>
+
+            <div class="table-content">
+              <ul class="table-list">
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle"></i>General Ledger: Multi-currency support, charts of
+                  accounts, journal entries, financial reporting,
+                  budgeting and Period closing</li>
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle"></i>  Accounts Payable: Vendor management, invoice 
+                  processing, payment processing, and expense 
+                  management.</li>
+                <li> <i class="lni lni-checkmark-circle deactive"></i>Accounts Receivable: Customer management, invoice 
+                  tracking, payment processing, and collections. </li>
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle deactive"></i> Fixed Assets: Manage acquisitions, depreciation, 
+                  transfers, disposals, and maintenance tracking.</li>
+                  <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle deactive"></i> Tax management: Automated tax calculations,
+                    compliance and reporting</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="pricing-style-fourteen">
+            <div class="table-head">
+              <h6 class="title">Inventory Management</h4>
+            </div>
+
+            <div class="table-content">
+              <ul class="table-list">
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle"></i>Our system offers comprehensive, real-time insights 
+                  that empower you to make data-driven decisions with 
+                  confidence. 
+                  Whether you need detailed financial reports, perfor
+                  mance analytics, or customizable dashboards, our 
+                  robust reporting functionalities provide the clarity and 
+                  depth you need to drive your business forward. 
+                  Experience unparalleled visibility into your operations, 
+                  streamline your reporting processes, and transform 
+                  your data into actionable intelligence that fuels growth 
+                  and innovation."</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 col-12">
+          <div class="pricing-style-fourteen">
+            <div class="table-head">
+              <h6 class="title">Procurement Management</h4>
+            </div>
+
+            <div class="table-content">
+              <ul class="table-list">
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle"></i>Supplier Management: Manage supplier relationships, 
+                  purchase requisitions, order management, and goods
+                   receipt.
+                </li>
+                <li class="mt-3 mb-3"> <i class="lni lni-checkmark-circle"></i> SRM: Monitor supplier performance, manage risks, 
+                  and handle contracts efficiently.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--/ End Pricing  Area -->
+
+  <!-- Why Choose Us -->
+   
+  <section class="about-area about-five" style="background-color: white;" id="chooseUs">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-4 col-12">
+          <div class="about-image-five p-0"> 
+            <img class="img-fluid" src="img/devices.png" alt="chooseUs" />
+          </div>
+        </div>
+        <div class="col-lg-8 col-12">
+          <div class="about-five-content p-0">
+            <h2 class="fw-bold text-lg">Why Choose Us</h2>
+            <hr class="custom-hr">
+            <p class="main-title p-3">By choosing Uniox, you're not just investing in soft
+              ware; you're investing in a partnership dedicated to 
+              your growth and success. With Uniox, you can focus on what you do 
+              best while we take care of the rest. 
+              Transform your business today and experi
+              ence the Uniox difference. 
+            </p>
+            <div class="about-five-tab">
+              <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <button class="nav-link active" id="nav-who-tab" data-bs-toggle="tab" data-bs-target="#nav-who"
+                    type="button" role="tab" aria-controls="nav-who" aria-selected="true">Agile</button>
+                  <button class="nav-link" id="nav-vision-tab" data-bs-toggle="tab" data-bs-target="#nav-vision"
+                    type="button" role="tab" aria-controls="nav-vision" aria-selected="false">User Friendly</button>
+                  <button class="nav-link" id="nav-history-tab" data-bs-toggle="tab" data-bs-target="#nav-history"
+                    type="button" role="tab" aria-controls="nav-history" aria-selected="false">Customer Centric</button>
+                    <button class="nav-link" id="nav-history-tab" data-bs-toggle="tab" data-bs-target="#nav-history"
+                    type="button" role="tab" aria-controls="nav-history" aria-selected="false">Value Optimized</button>
+                    <button class="nav-link" id="nav-history-tab" data-bs-toggle="tab" data-bs-target="#nav-history"
+                    type="button" role="tab" aria-controls="nav-history" aria-selected="false">Secure</button>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-who" role="tabpanel" aria-labelledby="nav-who-tab">
+                  <p> Adapt to changing
+                    business environments 
+                   with ease.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-vision" role="tabpanel" aria-labelledby="nav-vision-tab">
+                  <p>Intuitive interfaces and easy
+                    to use features which 
+                   simplify your operations. </p>
+                </div>
+                <div class="tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-history-tab">
+                  <p> Designed with your specific
+                    needs at the forefront, 
+                   ensuring an exceptional 
+                   user experience.</p>
+                </div>
+                <div class="tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-history-tab">
+                  <p>Premium features and 
+                    robust functionality tailored 
+                    to ensure you get the best 
+                    return on your investment. </p>
+                </div>
+                <div class="tab-pane fade" id="nav-history" role="tabpanel" aria-labelledby="nav-history-tab">
+                  <p>Robust cloud-based 
+                    infrastructure provides 
+                    unparalleled role-based 
+                    access and top-tier security 
+                    to keep your data safe and 
+                    your operations smooth.  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- container -->
+  </section>
+
+  <!-- Why Choose Us -->
+
+
+
+  <!-- What You Gain -->
+  <section id="yougain" class="call-action">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-9">
+          <div class="inner-content">
+            <h2>What You Gain</h2>
+            <div class="row">
+              <div class="col-lg-6 col-md-12">
+                <div>
+                  <h6 style="background-color: white; color: #002366; border-radius: 50px; text-align: start; width: fit-content;" class="nav-link">Enhanced Collaboration</h6>
+                  <p style="text-align: start;" class="pt-3 pb-3">
+                    Foster better collaboration among
+                    teams with integrated tools and shared
+                    data, leading to improved productivity
+                    and innovation.
+                  </p>
+                </div>
+
+                <div>
+                  <h6 style="background-color: white; color: #002366; border-radius: 50px; text-align: start; width: fit-content;" class="nav-link"> Improved Customer Satisfaction</h6>
+                  <p style="text-align: start;" class="pt-3 pb-3">
+                    Deliver superior customer service 
+                    with a centralized system that provides 
+                    a comprehensive management of 
+                    customer relationships. 
+                  </p>
+                </div>
+
+                <div>
+                  <h6 style="background-color: white; color: #002366; border-radius: 50px; text-align: start; width: fit-content;" class="nav-link">Enhanced Efficiency</h6>
+                  <p style="text-align: start;" class="pt-3 pb-3">
+                    Streamline business operations
+                    through automation and integration,
+                    reducing manual tasks and  saving
+                    time. 
+                  </p>
+                </div>
+              </div>
+
+              <div class="col-lg-6 col-md-12">
+                <div>
+                  <h6 style="background-color: white; color: #002366; border-radius: 50px; text-align: start; width: fit-content;" class="nav-link">Cost Savings</h6>
+                  <p style="text-align: start;" class="pt-3 pb-3">
+                    Reduce operational costs through
+                    process optimization and by eliminating
+                    the need for multiple disparate systems.
+                  </p>
+                </div>
+
+                <div>
+                  <h6 style="background-color: white; color: #002366; border-radius: 50px; text-align: start; width: fit-content;" class="nav-link">Regulatory Compliance</h6>
+                  <p style="text-align: start;" class="pt-3 pb-3">
+                    Stay compliant with changing local
+                    regulations and standards effortlessly,
+                    avoiding costly penalties and legal
+                    issues.
+                  </p>
+                </div>
+
+                <div>
+                  <h6 style="background-color: white; color: #002366; border-radius: 50px; text-align: start; width: fit-content;" class="nav-link"> Improved Decision making</h6>
+                  <p style="text-align: start;" class="pt-3 pb-3">
+                    Access to real-time data and analytics
+                    to make informed decisions quickly and
+                    accurately. 
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- What You Gain -->
+
+
+
+  <!-- Start Latest News Area -->
+  <div id="nextsteps" class="latest-news-area section">
+    <!--======  Start Section Title Five ======-->
+    <div class="">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="content">
+              <h2 class="fw-bold">Next Steps</h2>
+              <hr class="custom-hr">
+              <p>
+                We invite you to experience the benefits of the Uniox Enterprise 
+                <br> Solution firsthand. Here are the next steps to get started
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+    <!--======  End Section Title Five ======-->
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-6 col-12">
+          <!-- Single News -->
+          <div class="single-news">
+            <div class="content-body">
+              <p class="p-2 pb-0">
+                Schedule a Demo: Contact us to schedule a personalized
+                demo of our solution.
+              </p>
+              <hr>
+              <p class="p-2 pb-0 pt-2">
+                Consultation: Our team will work with you to understand 
+                your specific needs and tailor the solution accordingly
+              </p>
+              <hr>
+              <p class="p-2 pb-0 pt-2">
+                Implementation: We will guide you through the 
+                implementation process to ensure a seamless
+                 transition.
+              </p>
+              <hr>
+              <p class="p-2 pb-0 pt-2">
+                Support and Training: Our team will provide comprehensive 
+                support and training to ensure you get the most out of our 
+                solution.
+              </p>
+              <hr>
+            </div>
+          </div>
+          <!-- End Single News -->
+        </div>
+        <div class="col-lg-4 col-md-6 col-12">
+          <!-- Single News -->
+          <div class="single-news">
+            <div class="image">
+              <a><img class="thumb" src="img/1.jpg" alt="next_steps" /></a>
+            </div>
+          </div>
+          <!-- End Single News -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Latest News Area -->
+
+  <!-- ========================= contact-section start ========================= -->
+  <section id="contact" class="contact-section p-0">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-4">
+          <div class="contact-item-wrapper">
+            <div class="row">
+              <div class="col-12 col-md-6 col-xl-12">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="lni lni-phone"></i>
+                  </div>
+                  <div class="contact-content">
+                    <h4>Contact Us</h4>
+                    <p>+233 54 540 1177</p>
+                    <p>unioxtechnologies@gmail.com
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-12 col-md-6 col-xl-12">
+                <div class="contact-item">
+                  <div class="contact-icon">
+                    <i class="lni lni-map-marker"></i>
+                  </div>
+                  <div class="contact-content">
+                    <h4>Address</h4>
+                    <p>Accra, Ghana</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-8">
+          <div class="contact-form-wrapper">
+            <div class="row">
+              <div class="col-xl-10 col-lg-8 mx-auto">
+                <div class="section-title text-center">
+                  <span> Send Us A Message </span>
+                </div>
+              </div>
+            </div>
+            <form action="#" class="contact-form">
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" name="name" id="name" placeholder="Name" required />
+                </div>
+                <div class="col-md-6">
+                  <input type="email" name="email" id="email" placeholder="Email" required />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <input type="text" name="phone" id="phone" placeholder="Phone" required />
+                </div>
+                <div class="col-md-6">
+                  <input type="text" name="subject" id="email" placeholder="Subject" required />
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <textarea name="message" id="message" placeholder="Type Message" rows="5"></textarea>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-12">
+                  <div class="button text-center rounded-buttons">
+                    <button type="submit" class="btn primary-btn rounded-full">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========================= contact-section end ========================= -->
+
+  <!-- Start Footer Area -->
+  <footer class="footer-area footer-eleven">
+    <!-- Start Footer Top -->
+    <div class="footer-top">
+      <div class="container">
+        <div class="inner-content">
+          <div class="row">
+            <div class="col-lg-4 col-md-6 col-12">
+              <!-- Single Widget -->
+              <div class="footer-widget f-about">
+                <div class="logo">
+                  <a href="index.html">
+                    <img class="w-50" src="img/logo.png" alt="#" class="img-fluid" />
+                  </a>
+                </div>
+                <p>
+                  We are Uniox Technologies – where innovation 
+                  meets simplicity to empower businesses.  
+                </p>
+                <p class="copyright-text">
+                  <p>Copyright © <span id="current-date"></span> uniox.</p>
+                  <span> </span>Designed and Developed by
+                  <a href="" rel=""> Uniox Technologies </a>
+                </p>
+              </div>
+              <!-- End Single Widget -->
+            </div>
+            <div class="col-lg-2 col-md-6 col-12">
+              <!-- Single Widget -->
+              <div class="footer-widget f-link">
+                <h5>Links</h5>
+                <ul>
+                  <li><a href="javascript:void(0)">Who We Are</a></li>
+                  <li><a href="javascript:void(0)">Why We Exist</a></li>
+                  <li><a href="javascript:void(0)">What We Offer</a></li>
+                  <li><a href="javascript:void(0)">Why Choose Us</a></li>
+                  <li><a href="javascript:void(0)">What You Gain</a></li>
+                  <li><a href="javascript:void(0)">Next Steps</a></li>
+                </ul>
+              </div>
+              <!-- End Single Widget -->
+            </div>
+            <div class="col-lg-2 col-md-6 col-12">
+              <!-- Single Widget -->
+              <div class="footer-widget f-link">
+                <h5>Resources</h5>
+                <ul>
+                  <li><a href="javascript:void(0)">Investors</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--/ End Footer Top -->
+  </footer>
+  <!--/ End Footer Area -->
+
+  <!-- Copyright Date -->
+
+  <script>
+        // Get the current date
+        const currentDate = new Date();
+
+        const options = { year: 'numeric'};
+        const formattedDate = currentDate.toLocaleDateString(undefined, options);
+
+        // Insert the formatted date into the HTML element with id="current-date"
+        document.getElementById('current-date').textContent = formattedDate;
+    </script>
+
+  <!-- Copyright Date -->
+
+  <a href="#" class="scroll-top btn-hover">
+    <i class="lni lni-chevron-up"></i>
+  </a>
+
+  <!--====== js ======-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/glightbox.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/tiny-slider.js"></script>
+
+  <script>
+
+    //===== close navbar-collapse when a  clicked
+    let navbarTogglerNine = document.querySelector(
+      ".navbar-nine .navbar-toggler"
+    );
+    navbarTogglerNine.addEventListener("click", function () {
+      navbarTogglerNine.classList.toggle("active");
+    });
+
+    // ==== left sidebar toggle
+    let sidebarLeft = document.querySelector(".sidebar-left");
+    let overlayLeft = document.querySelector(".overlay-left");
+    let sidebarClose = document.querySelector(".sidebar-close .close");
+
+    overlayLeft.addEventListener("click", function () {
+      sidebarLeft.classList.toggle("open");
+      overlayLeft.classList.toggle("open");
+    });
+    sidebarClose.addEventListener("click", function () {
+      sidebarLeft.classList.remove("open");
+      overlayLeft.classList.remove("open");
+    });
+
+    // ===== navbar nine sideMenu
+    let sideMenuLeftNine = document.querySelector(".navbar-nine .menu-bar");
+
+    sideMenuLeftNine.addEventListener("click", function () {
+      sidebarLeft.classList.add("open");
+      overlayLeft.classList.add("open");
+    });
+
+    //========= glightbox
+    GLightbox({
+      'href': 'https://www.youtube.com/watch?v=r44RKWyfcFw&fbclid=IwAR21beSJORalzmzokxDRcGfkZA1AtRTE__l5N4r09HcGS5Y6vOluyouM9EM',
+      'type': 'video',
+      'source': 'youtube', //vimeo, youtube or local
+      'width': 900,
+      'autoplayVideos': true,
+    });
+
+  </script>
 </body>
+
 </html>
